@@ -3,7 +3,7 @@ steps:
   args: [
     'run',
     '--volume', '/workspace:/srv/jekyll',
-    'jekyll/jekyll:3.7',
+    'jekyll/jekyll:3.6',
     'jekyll', 'build'
     ]
 - name: 'gcr.io/cloud-builders/docker'
