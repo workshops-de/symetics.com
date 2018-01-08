@@ -1,0 +1,16 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [
+    'run',
+    '--volume', '/workspace:/srv/jekyll',
+    'jekyll/jekyll:3.7',
+    'jekyll', 'build'
+    ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: [
+    'run',
+    '--volume', '/workspace/:/project',
+    '-w', '/project',
+    'devillex/docker-firebase',
+    'firebase', 'deploy', '--token', '$_FIREBASE_TOKEN'
+    ]
