@@ -1,39 +1,48 @@
 <footer>
-  {% include _newsletter.html %}
-
-  <div class="info-footer">
-    <div class="container text-center">
-      <ul class="list-inline pull-md-right hidden-print">
-        <li>
-          <a href="/feed.xml" target="_blank" track-ga-event="navigation;top;@href">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-rss fa-stack-0-85x fa-inverse"></i>
-            </span>
-          </a>
-          <a href="https://twitter.com/phoenixfw_de" target="_blank">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-          <a href="mailto:info@workshops.de">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-envelope fa-stack-0-85x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-      </ul>
-      <div class="text-md-left pull-xs-center pull-md-left">
-        <ul class="list-inline text-uppercase">
-          <li class="list-inline-item"><a href="/schulung-inhouse/">Schulung Inhouse</a></li>
-          <li class="list-inline-item"><a href="/impressum/">Impressum</a></li>
-          <li class="list-inline-item"><a href="/datenschutz/">Datenschutz</a></li>
-        </ul>
-        <small class="text-muted footer-copyright">Copyright © {{ site.time | date: '%Y' }} Workshops Europe GmbH. Alle Rechte vorbehalten.</small>
+  <div class="box box-footer">
+    <div class="container container-with-margin">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="brand white"><i class="icon icon-symetics"></i> symetics</p>
+        </div>
+  
+        <div class="row col-xs-7" itemscope="" itemtype="http://schema.org/PostalAddress">
+          <div class="col-sm-7 col-xs-12">
+            © 2014-{{ site.time | date: '%Y' }} Symetics GmbH<br>
+            All right reserved.<br><br>
+          </div>
+          <div class="col-sm-5 col-xs-12">
+            <p>Headoffice Essen</p>
+            <p>
+              <span itemscope="" itemtype="http://schema.org/LocalBusiness">
+                <span itemprop="name">Symetics GmbH</span>
+              </span><br>
+              <span itemprop="streetAddress">Kopstadtplatz 24/25</span><br>
+              <span itemprop="postalCode">45127</span> <span itemprop="addressLocality">Essen</span>
+              <span itemprop="addressCountry" class="hide">Germany</span>
+            </p>
+            <p>
+              <span itemprop="email"><a href="mailto:info@symetics.com">info@symetics.com</a></span>
+            </p>
+          </div>
+        </div>
+  
+        <div class="row col-xs-5">
+          <div class="col-sm-6 col-md-6 col-xs-12 col-md-offset-1 col-lg-offset-1">
+            <a href="mailto:info@symetics.com">Kontakt</a><br>
+            <a href="/impressum/">Impressum</a>
+            <a href="/datenschutz/">Impressum</a>
+          </div>
+          <div class="col-sm-6 col-md-5 col-xs-12">
+            <div class="hidden-sm hidden-md hidden-lg"><br><br></div>
+            <div class="social-icons">
+              <a target="_blank" href="https://twitter.com/symetics"><i class="icon icon-twitter"></i></a>
+              <a target="_blank" href="https://github.com/symetics"><i class="icon icon-github"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/company/symetics"><i class="icon icon-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="clearfix"></div>
     </div>
   </div>
 </footer>
