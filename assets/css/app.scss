@@ -1,7 +1,12 @@
 ---
 ---
 
-@import "fonts/symetics-font";
+$font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$body-color:            #585858;
+$headings-color: #333;
+
+@import "fonts/font-symetics";
+@import "fonts/font-open-sans";
 @import "bootstrap";
 @import "wallpaper";
 @import "section";
