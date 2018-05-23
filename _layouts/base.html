@@ -21,10 +21,26 @@
 
 <body>
 
-  <div class="wallpaper" style="background: url('/assets/img/header-images/{{ page.header_image }}') #f9f9f9 center center;"></div>
+  <div class="wallpaper mb-5" style="background: url('/assets/img/header-images/{{ page.header_image }}');">
+    {% include _navigation.html %}
+    <div class="text-center">
+      <h1>{{ page.title }}</h1>
 
-  {{content}}
+      {% if page.subtitle %}
+        <em style="font-size: 0.8em;"><br>
+          {{ page.subtitle }}
+        </em>
+      {% endif %}
+    </div>
 
+
+  </div>
+
+  <main role="main" class="pb-4">
+    {{content}}
+  </main>
+
+  {% include _clients.html %}
   {% include _footer.html %}
 
   <!-- JavaScript -->
