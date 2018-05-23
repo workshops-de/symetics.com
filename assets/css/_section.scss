@@ -1,3 +1,33 @@
+.box {
+  position: relative;
+  margin-bottom: 50px;
+
+  &.box-light {
+    color: #fff;
+    h1, h2, h3, h4 {
+      color: #fff;
+    }
+  }
+
+  &.box-logo:after {
+    // @extend .icon-symetics:before;
+    content: "    ";
+    background: url('/assets/img/symetics-icon.png');
+    left: 43%;
+    position: absolute;
+    opacity: 0.2;
+    top: 0px;
+    width: 64px;
+    height: 64px;
+    pointer-events: none;
+    &.center {
+      left: 50%;
+      margin-left: -100px;
+    }
+  }
+}
+
+
 footer {
   background-color: #444;
   margin-bottom: 0;
