@@ -55,7 +55,7 @@ permalink: /
   <div class="container container-with-margin">
     <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <%= image_tag 'project-workshops.png', class: 'img-responsive' %>
+        <img class="img-responsive" src="/assets/img/project-workshops.png">
       </div>
       <div class="col-lg-5 col-lg-offset-0">
         <p>
@@ -115,10 +115,9 @@ permalink: /
   <div class="container container-with-margin">
     <div class="row">
       <div class="col-lg-3 col-lg-offset-2">
-        <%= image_tag 'project-angularjs.png', class: 'img-responsive' %>
+      <img class="img-responsive" src="/assets/img/project-angularjs.png">
       </div>
       <div class="col-lg-5 col-lg-offset-0">
-        <p>
 
         <h2>AngularJS.DE</h2>
         </p>
