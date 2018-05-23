@@ -1,0 +1,13 @@
+$wallpaper-height:          450px;
+
+
+.wallpaper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $wallpaper-height;
+  background-size: cover !important;
+  z-index: -999;
+}
+

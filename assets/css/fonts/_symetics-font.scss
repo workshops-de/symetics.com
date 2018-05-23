@@ -1,0 +1,74 @@
+
+.icon {
+  display: inline-block;
+  font-size: 92%;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+
+  &.icon-symetics { font-size: 85%; }
+  &.icon-arrow-right { margin-left: 5px; }
+}
+
+//
+// Icon Font: symetics-font
+//
+
+@font-face {
+  font-family: "symetics-font";
+  src: font-url("../fonts/symetics-font_f51af31cfe40a92613cd966d18a55a38.eot");
+  src: font-url("../fonts/symetics-font_f51af31cfe40a92613cd966d18a55a38.eot?#iefix") format("embedded-opentype"),
+       font-url("../fonts/symetics-font_f51af31cfe40a92613cd966d18a55a38.woff") format("woff"),
+       font-url("../fonts/symetics-font_f51af31cfe40a92613cd966d18a55a38.ttf") format("truetype"),
+       font-url("../fonts/symetics-font_f51af31cfe40a92613cd966d18a55a38.svg#symetics-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "symetics-font";
+    src: font-url("../fonts/symetics-font_f51af31cfe40a92613cd966d18a55a38.svg#symetics-font") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-arrow-left:before,
+.icon-arrow-link:before,
+.icon-arrow-right:before,
+.icon-dribble:before,
+.icon-facebook:before,
+.icon-github:before,
+.icon-instagram:before,
+.icon-linkedin:before,
+.icon-symetics:before,
+.icon-tumblr:before,
+.icon-twitter:before,
+.icon-xing:before {
+  display: inline-block;
+  font-family: "symetics-font";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-arrow-left:before { content: "\f100"; }
+.icon-arrow-link:before { content: "\f101"; }
+.icon-arrow-right:before { content: "\f102"; }
+.icon-dribble:before { content: "\f103"; }
+.icon-facebook:before { content: "\f104"; }
+.icon-github:before { content: "\f105"; }
+.icon-instagram:before { content: "\f106"; }
+.icon-linkedin:before { content: "\f107"; }
+.icon-symetics:before { content: "\f108"; }
+.icon-tumblr:before { content: "\f109"; }
+.icon-twitter:before { content: "\f10a"; }
+.icon-xing:before { content: "\f10b"; }
