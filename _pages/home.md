@@ -68,7 +68,8 @@ permalink: /
         </p>
 
         <p>
-          <%= link_to "Workshops.DE #{icon 'arrow-right'}", 'https://workshops.de', target: '_blank', class: 'btn btn-default btn-text-black text-uppercase btn-with-margin' %>
+        <a target="_blank" href="https://workshops.de" class="btn btn-default btn-text-black text-uppercase btn-with-margin">
+        ARROW RIGHT</a>
         </p>
       </div>
     </div>
@@ -127,7 +128,8 @@ permalink: /
         </p>
 
         <p>
-          <%= link_to "AngularJS.DE #{icon 'arrow-right'}", 'https://angularjs.de', target: '_blank', class: 'btn btn-default btn-text-black text-uppercase btn-with-margin' %>
+        <a target="_blank" href="https://angularjs.de" class="btn btn-default btn-text-black text-uppercase btn-with-margin">
+        ARROW RIGHT</a>
         </p>
       </div>
     </div>
