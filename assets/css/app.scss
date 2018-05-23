@@ -7,12 +7,12 @@ $body-color:            #585858;
 $headings-color: #333;
 $primary:         #00CEFF;
 
-
 @import "fonts/font-montserrat";
 @import "fonts/font-open-sans";
 @import "bootstrap";
 @import "wallpaper";
 @import "section";
+@import "navbar";
 @import "img-utils";
 
 .section-title {

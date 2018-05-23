@@ -1,9 +1,7 @@
-$wallpaper-height:          20rem;
-
-
 .wallpaper {
   background-color: #f9f9f9;
-  height: $wallpaper-height;
+  padding: 5rem 0 2rem;
+  min-height: 5rem;
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -17,3 +15,8 @@ $wallpaper-height:          20rem;
   }
 }
 
+@include media-breakpoint-up(lg) {
+  .wallpaper {
+    min-height: 25rem;
+  }
+}
