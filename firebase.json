@@ -3,12 +3,13 @@
     "public": "_site",
     "ignore": [
       "firebase.json",
+      "README.*",
       "**/.*",
       "**/node_modules/**"
     ],
     "headers": [
       {
-        "source": "**/*.@(jpg|jpeg|gif|png|svg|css)",
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|css|ico|min.js)",
         "headers": [{"key": "Cache-Control", "value": "max-age=604800"}]
       }
     ]
