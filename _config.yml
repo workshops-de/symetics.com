@@ -24,20 +24,35 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: "_posts" # an empty string here means all files in the project
+    values:
+      layout: "post"
+  - scope:
+      path: "_pages" # an empty string here means all files in the project
+    values:
+      layout: "page"
+
 # Build settings
 markdown: kramdown
-theme: minima
+sass:
+  style: :compressed
+  sass_dir: assets/css
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - cloudbuild.yaml
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
