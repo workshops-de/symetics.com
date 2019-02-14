@@ -21,15 +21,15 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (9.4.3)
+    autoprefixer-rails (9.4.7)
       execjs
-    bootstrap (4.2.1)
+    bootstrap (4.3.1)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
     builder (3.2.3)
     colorator (1.1.0)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.4)
     crass (1.0.4)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -74,7 +74,7 @@ GEM
     method_source (0.9.2)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
-    nokogiri (1.9.1)
+    nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -132,7 +132,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap (~> 4.2.1)
+  bootstrap (~> 4.3.1)
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.11)
 
