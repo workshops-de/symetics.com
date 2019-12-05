@@ -16,7 +16,7 @@ gem "jekyll", "~> 3.8.6"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'bootstrap', '~> 4.3.1'
+  gem 'bootstrap', '~> 4.4.1'
   gem "jekyll-feed", "~> 0.13"
 end
 
